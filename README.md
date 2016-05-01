@@ -8,8 +8,9 @@ Tick-tick is a standalone browser app I created to count seconds when I do the p
 
 You need Node.js and npm to install the npm qs module, which this app uses.
 
-1) In the project directory, do: npm install
-2) Then, do: node bundler.js
+- In the project directory, do: npm install
+
+- Then, do: node bundler.js
 
 ##Usage
 
