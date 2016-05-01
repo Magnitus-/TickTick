@@ -1,0 +1,31 @@
+{
+  "name": "tick-tick",
+  "version": "0.1.0",
+  "description": "App that does recurrent ticking",
+  "keywords": [
+    "express",
+    "mongo",
+    "middleware"
+  ],
+  "author": "Eric Vallee <eric_vallee@webificservices.com>",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/Magnitus-/TickTick"
+  },
+  "bugs": {
+    "url": "http://github.com/Magnitus-/TickTick/issues",
+    "email": "eric_vallee@webificservices.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT License",
+      "url": "http://mit-license.org/"
+    }
+  ],
+  "dependencies": {
+      "qs": "6.x",
+      "browserify": "13.x"
+  },
+  "license": "MIT"
+}

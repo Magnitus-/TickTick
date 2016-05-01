@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta charset="utf-8"></meta>
+    </head>
+	<body>
+		<audio id="audio" controls preload="auto"> 
+		  <!-- now include flash fall back -->
+		</audio>
+        <script src="bundle.js"></script>
+        <script>
+            var qs = require('qs');
+            var tickLink = "http://soundjax.com/reddo/9230%5ESTICKHIT.mp3";
+            var interval=1000;
+            
+            if(window.location.href.indexOf('?') >= 0)
+            {
+                var queryString = window.location.href.slice(window.location.href.indexOf('?') + 1);
+                var params = qs.parse(queryString);
+                if(params.interval)
+                {
+                    interval = params.interval;
+                }
+                
+                if(params.track)
+                {
+                    tickLink = decodeURIComponent(params.track);
+                }
+            }
+            
+            var audio = document.getElementById("audio");
+            var source= document.createElement('source');
+            source.src = tickLink;
+            audio.appendChild(source);
+            
+            function tick()
+            {
+                audio.play();
+                setTimeout(tick, interval);
+            }
+            tick();
+        </script>
+	</body>
+</html>
