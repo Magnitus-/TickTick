@@ -12,7 +12,7 @@ You need Node.js and npm to install the npm qs module, which this app uses.
 
 - Then, do: node bundler.js
 
-# Installation With Docker
+## Installation With Docker
 
 You'll need Docker and Docker-Compose with non-root access to Docker.
 
