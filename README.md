@@ -1,10 +1,10 @@
-#tick-tick
+# tick-tick
 
-##Purpose
+## Purpose
 
-Tick-tick is a standalone browser app I created to count seconds when I do the plank. The piano tempo stopped working properly, I don't have a smart phone so yeah...
+Tick-tick is a standalone browser app I created to count seconds when I do the plank. The piano tempo stopped working properly and I can't be bothered finding an app on my smartphone for this...
 
-##Installation
+## Installation
 
 You need Node.js and npm to install the npm qs module, which this app uses.
 
@@ -12,7 +12,7 @@ You need Node.js and npm to install the npm qs module, which this app uses.
 
 - Then, do: node bundler.js
 
-##Usage
+## Usage
 
 Open the play.html file in your browser. Double-clicking on it will do the trick in most environments.
 
