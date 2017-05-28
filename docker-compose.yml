@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  bundler:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: tick-tick:latest
+    volumes: 
+      - ./bundle.js:/opt/code/bundle.js
